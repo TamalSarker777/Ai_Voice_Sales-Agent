@@ -1,0 +1,17 @@
+python-dotenv
+openai
+pyaudio
+SpeechRecognition
+openai[voice_helpers]
+langchain-openai
+streamlit
+openai
+langchain-core
+langchain-community
+audio-recorder-streamlit
+langchain_huggingface
+pypdf
+sentence-transformers
+fastapi
+uvicorn
+soundfile
