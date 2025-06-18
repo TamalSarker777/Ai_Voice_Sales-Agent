@@ -31,8 +31,6 @@ An AI-powered voice sales assistant that simulates real-time conversations with 
 ---
 
 
----
-
 ## API Endpoints
 
 | Endpoint                      | Purpose                                    |
@@ -48,7 +46,6 @@ Interactive docs: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 
 ### Install Requirements
-```bash
 pip install -r requirements.txt
 
 ### Set Up Environment Variables
@@ -59,12 +56,10 @@ OPENAI_API_KEY="Your OpenAI API Key"
 Replace "Your OpenAI API Key" with your actual OpenAI key.
 
 ### Run the Backend
-```bash
 uvicorn main:app --reload
 Visit: http://localhost:8000/docs
 
 ### Launch the Frontend (Streamlit UI)
-```bash
 cd streamlit_app
 streamlit run app.py
 This will open a local web interface for testing conversations.
