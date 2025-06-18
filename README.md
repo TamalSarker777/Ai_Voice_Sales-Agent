@@ -59,6 +59,6 @@ uvicorn main:app --reload <br>
 Visit: http://localhost:8000/docs
 
 ### Launch the Frontend (Streamlit UI)
-cd streamlit_app <br>
+cd app <br>
 streamlit run app.py <br>
 This will open a local web interface for testing conversations.
