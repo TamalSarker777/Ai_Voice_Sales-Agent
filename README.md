@@ -49,17 +49,16 @@ Interactive docs: [http://localhost:8000/docs](http://localhost:8000/docs)
 pip install -r requirements.txt
 
 ### Set Up Environment Variables
-Inside the AI_VOICE_AGENT/ directory, create a .env file and add:
+Inside the AI_VOICE_AGENT/ directory, create a .env file and add: <br>
 
-
-OPENAI_API_KEY="Your OpenAI API Key"
-Replace "Your OpenAI API Key" with your actual OpenAI key.
+OPENAI_API_KEY="Your OpenAI API Key" <br>
+Replace "Your OpenAI API Key" with your actual OpenAI key. <br>
 
 ### Run the Backend
-uvicorn main:app --reload
+uvicorn main:app --reload <br>
 Visit: http://localhost:8000/docs
 
 ### Launch the Frontend (Streamlit UI)
-cd streamlit_app
-streamlit run app.py
+cd streamlit_app <br>
+streamlit run app.py <br>
 This will open a local web interface for testing conversations.
